@@ -1,0 +1,25 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.04);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #E7F6FF;
+  padding: 85px;
+}
